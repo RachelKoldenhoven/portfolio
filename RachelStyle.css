@@ -1,0 +1,110 @@
+ /*#EB3B88 pink #D8005F dark pink #FF3D00 orange #36D986 green */
+/*#A7F43D light green #589800 forest green*/
+
+body {
+  font-family: "Monaco";
+}
+
+header {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg");
+  background-size: cover;
+  background-color: #D8005F;
+  height: 450px;
+  margin: 0;
+  padding: 30px;
+}
+
+header img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  display: inline;
+  position: relative;
+  left: 41%;
+  top: 25px;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+button {
+  float: right;
+  margin-right: 20px;
+
+}
+
+section {
+  border-radius: 5%;
+  margin: 10px;
+  padding: 20px;
+  width: 44%;
+  font-family: "Monaco";
+
+}
+
+.volcanoes {
+  background-color: #A7F43D;
+  float: left;
+}
+
+.family {
+  background-color: #36D986;
+  float: right;
+}
+
+.quilts {
+  background-color: #36D986;
+  float: left;
+}
+
+.background {
+  background-color: #A7F43D;
+  float: right;
+}
+
+.trivia {
+  background-color: #D8005F;
+  float: left;
+}
+
+.page2A {
+  background-color: #A7F43D;
+  width: 95%;
+}
+
+.page2B {
+  background-color: #36D986;
+  width: 95%;
+}
+
+.button {
+  background-color: #589800;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.robots {
+  display: none;
+}
+
+img.resize {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+footer {
+  background-color: #FF3D00;
+  width: 100%;
+  height: 100px;
+  clear: both;
+}
+
+
